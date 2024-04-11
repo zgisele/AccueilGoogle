@@ -1,0 +1,164 @@
+
+/* mise en forme de l'entete de page */
+
+nav li{
+    
+	list-style: none;
+	display:inline-block;/* Pour alligner les liens sur la meme ligne*/
+    margin-right: 20px;
+    /* color: red; */
+
+}
+nav{
+    text-align: right;
+    /* border: 1px solid black; */
+
+}
+.user div{
+    color: white;
+    font-weight: 400;
+    margin-top:10px ;
+    /* border: 1px solid black; */
+    
+}
+.user {
+    background-color: rgb(229, 6, 80);
+    width: 40px;
+    height: 40px; 
+    border-radius: 20px;
+    text-align: center;
+    /* margin-bottom: -10px; */
+    
+
+}
+
+
+/* mise en forme du corps de page */
+
+.boite{
+    text-align: center;
+    /* margin-bottom: 40%; */
+}
+
+.boite h1{
+    font-size:70px;
+    letter-spacing: -10px;
+}
+.lettre1,.lettre4{
+    color: blue;
+}
+.lettre2,.lettre6{
+    color: red;
+}
+
+.lettre5{
+    color: rgb(17, 182, 17);
+}
+.lettre3{
+    color: orange;
+}
+.Recherche{
+    border: 1px solid rgba(27, 21, 21, 0.132);
+    border-radius: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    display: flex;
+    height: 40px;
+    }
+.Recherche2{
+    /* border: 1px solid rgba(27, 21, 21, 0.132); */
+    /* border-radius: 20px; */
+     margin-left: 70%;
+    /* margin-right: 30%; */ 
+    display: flex;
+    /* text-align: right; */
+    /* height: 40px; */
+
+}
+.audio{
+    margin-right: 10px;
+}
+.option{
+    display: flex;
+   /* margin: 0 auto; */
+   /* border: 1px solid; */
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+    
+}
+.option1{
+    
+    background-color: rgba(197, 209, 209, 0.148);
+    border-radius: 2px;
+    height: 30px;
+    padding:10px 5px ;
+    /* padding-left:5px; */
+    /* margin-right: 20px; */
+    /* border: 1px solid; */
+}
+.option2{
+    background-color: rgba(197, 209, 209, 0.148);
+    border-radius: 2px;
+     margin-left: 10px;
+     width: 120px;
+     height: 30px;
+     padding:10px 5px ;
+     
+    /* border: 1px solid; */
+}
+
+.option2 a{
+    text-decoration:none;
+    color: black;
+
+}
+span{
+    color: blue;
+}
+
+/* mise en forme du pied de page */
+footer{
+    background-color: rgba(197, 209, 209, 0.148);
+    margin-top: 15%;
+    
+}
+.conteneur {
+    display: flex; /* Utilise Flexbox pour centrer l'élément */
+    /* justify-content: center; Centre l'élément horizontalement */
+}
+.ligne{
+    border: none; /* Supprime la bordure par défaut */
+    border-top: 1px solid   rgba(42, 37, 37, 0.132); /* Définit une bordure noire de 2 pixels en haut */
+    /* width: 50%; La largeur de la ligne horizontale */
+    /* margin: 20px 0; Marge au-dessus et en dessous de la ligne */
+    /* margin-left: 10px; */
+   
+}
+
+.bloc{
+    display: flex;
+    /* text-emphasis: none; */
+    /* border: 1px solid; */
+}
+.coteDroite li{
+    display:inline-block;
+     margin-right: 10px;
+   
+   
+}
+.coteDroite{
+    text-align: right;
+    margin-left: 450px;
+}
+.coteGauche li{
+    display:inline-block;
+    margin-left: 10px;
+      
+}
+.coteGauche{
+    text-align: left;
+   
+    
+}
