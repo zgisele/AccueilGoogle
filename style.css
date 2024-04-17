@@ -1,8 +1,8 @@
 
+
 /* mise en forme de l'entete de page */
 
 nav li{
-    
 	list-style: none;
 	display:inline-block;/* Pour alligner les liens sur la meme ligne*/
     margin-right: 20px;
@@ -31,6 +31,15 @@ nav{
     
 
 }
+.menu{
+
+    background-image: url("images/menu.png");
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    cursor: pointer;
+    margin-bottom:-10px;
+}
 
 
 /* mise en forme du corps de page */
@@ -57,14 +66,52 @@ nav{
 .lettre3{
     color: orange;
 }
-.Recherche{
+.search-form{
+    display: flex;
+    border: 1px solid rgba(27, 21, 21, 0.132);
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: 30%;
+    margin-right: 30%;
+    height: 40px;
+    }
+
+.search-form input{
+        border: none;
+        /* margin-left: 30%;
+        margin-right: 30; */
+        /* height: 40px; */
+        /* height: 40px; */
+        width: 400px;
+        outline: none;
+
+    }
+.search-icon{
+    /* border: 1px solid black; */
+    
+    width: 40px;
+    height: 40px;
+    /* position: absolute; */
+    /*top: 50%;
+    right: 50%; */
+    /* transform: translate(); */
+    background-image: url("images/icone.png");
+    background-size: cover;
+    cursor: pointer; 
+}
+/* img{
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+} */
+/* .Recherche{
     border: 1px solid rgba(27, 21, 21, 0.132);
     border-radius: 20px;
     margin-left: 30%;
     margin-right: 30%;
     display: flex;
     height: 40px;
-    }
+    } */
 .Recherche2{
     /* border: 1px solid rgba(27, 21, 21, 0.132); */
     /* border-radius: 20px; */
